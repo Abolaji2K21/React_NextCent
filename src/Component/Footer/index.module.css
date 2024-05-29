@@ -1,0 +1,21 @@
+.endOfPage{
+    justify-content: center;
+    text-align: center;
+    background: #f5f7fa;
+    padding: 20px;
+}
+.footer{
+    display: flex;
+    padding-bottom: 40px;
+    background: #263238;
+    justify-content: space-evenly;
+}
+
+.LastFooter{
+
+    background-color: white;
+    padding: 15px;
+}
+.LastFooter::placeholder{
+    color: white;
+}

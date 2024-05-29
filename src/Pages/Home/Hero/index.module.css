@@ -1,0 +1,14 @@
+.heroSection{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 90px;
+    /*padding-right: 144px;*/
+    gap: 130px ;
+    /*padding-left: 144px;*/
+}
+
+.heroSection > div > h1{
+    color: #4d4d4d;
+    font-size:45px;
+    font-weight:bolder;
+}
