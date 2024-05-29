@@ -1,0 +1,62 @@
+.subHeroSection > div > h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.subHeroSection > div > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 20%;
+    gap: 3%;
+
+}
+
+.imageContainer img {
+    width: 3%;
+    max-width: 100%;
+}
+
+.subHeroSectionOne{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 90px;
+}
+
+.subHeroSectionOne> div > h1{
+    color: #4d4d4d;
+    font-size:35px;
+    font-weight:bolder;
+}
+.subHeroSectionOne> div > h1 span{
+    display: block;
+    font-size:35px;
+    color: #4d4d4d;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+}
+.subHeroSectionOne> div > p{
+    display: block;
+    font-size:16px;
+    color: #4d4d4d;
+    font-weight: normal;
+    align-content: center;
+    text-align: center;
+}
+.memberships{
+    display: flex;
+    color: #4d4d4d;
+    justify-content: center;
+    text-align: center;
+    gap: 70px;
+    padding-top: 30px;
+    align-items: center;
+}
