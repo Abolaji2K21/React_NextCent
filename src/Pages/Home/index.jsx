@@ -1,5 +1,6 @@
 import Hero from "./Hero";
 import Clients from "./Client";
+import SubHero from "./SubHero";
 
 const Home = () => {
 
@@ -7,6 +8,7 @@ const Home = () => {
         <>
             <Hero/>
             <Clients/>
+            <SubHero/>
         </>
     )
 }
