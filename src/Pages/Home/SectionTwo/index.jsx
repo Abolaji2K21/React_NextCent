@@ -1,16 +1,14 @@
-import style from "./index.module.css";
-import interaction from "../../../asset/interaction.png";
-import React from "react";
+import style from './index.module.css';
+import phone from '../../../asset/phone.png';
 
 
-const SubHero = () => {
+const SectionTwo = () => {
     return (
         <>
-            <div className={style.secondHeroSection}>
-                <img src={interaction} alt="image"/>
-
+            <div className={style.thirdHeroSection}>
+                <img src={phone} alt="phone image"/>
                 <div>
-                    <h2>The unseen of spending three <br/>years at Pixelgrade</h2>
+                    <h2>How to design your site footer like <br/>we did</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed <br/>
                         sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. <br/>
                         Pellentesque placerat vestibulum lorem sed porta. Nullam mattis <br/>
@@ -22,11 +20,10 @@ const SubHero = () => {
                     </button>
                 </div>
             </div>
-
         </>
-    )
+    );
 
 
 }
 
-export default SubHero;
+export default SectionTwo;

@@ -1,6 +1,9 @@
 import Hero from "./Hero";
 import Clients from "./Client";
 import SubHero from "./SubHero";
+import Stat from "./SectionOne";
+import SectionTwo from "./SectionTwo";
+import TeslaSection from "./TeslaSection";
 
 const Home = () => {
 
@@ -9,6 +12,10 @@ const Home = () => {
             <Hero/>
             <Clients/>
             <SubHero/>
+            <Stat/>
+            <SectionTwo/>
+            <TeslaSection/>
+
         </>
     )
 }

@@ -1,0 +1,28 @@
+
+.Stats{
+    display: flex;
+    justify-content: normal;
+    background-color: #f5f7fa;
+    color: #4d4d4d;
+    gap: 300px;
+    padding: 50px;
+    /*text-align: center;*/
+
+}
+
+.Stats > div > h6{
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.statsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.statisticsNumbers > div {
+    flex: 1;
+}
